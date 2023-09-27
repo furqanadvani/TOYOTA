@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Roboto Sans", sans-serif; */
+}
+body{
+    background-color: black !important;
+    font-family: 'Roboto', sans-serif;;
+}
+.hero{
+    /* position: absolute; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./backgorund.jpg");
+    background-position: 70% 50%;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding-top: 220px;
+    flex-wrap: nowrap;
+}
+.hero-main{
+    display: flex;
+}
+.line{
+    /* position: relative; */
+    height: 8px;
+    width: 88%;
+    background-color: aliceblue;
+    margin-top: 50px;
+}
+.the-text h1{
+    /* position: absolute; */
+    color: aliceblue;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    font-size: 75px;
+    font-weight: 700;
+}
+.the-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: aliceblue;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+}
+.main-text h1{
+    font-size: 70px;
+    color: gold;
+    font-weight: 700;
+}
+.main-text h3{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+.new-land-cru{
+    position: relative;
+    background-image: url(./222.png);
+    width: 100%;
+    height: 100vh;
+    padding-top: 40px;
+    background-color: black;
+    flex-wrap: nowrap;
+    color: aliceblue;
+}
+.new-line{
+    display: flex;
+    align-items: center;
+    
+}
+.new-line-2{
+    position: relative;
+    width: 50%;
+    height: 10px;
+    background-color: aliceblue;
+    margin-left: 20px;
+}
+.new-text h3{
+    font-size: 50px;
+}
+.cruser h2{
+    color: gold;
+    font-size: 75px;
+}
+.col-3-content{
+    margin-top: 100px;
+    width: 450px;
+}
+.our-service{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: black;
+    padding-block: 80px;
+    color: aliceblue;
+}
+.our-line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.line-3{
+    width: 90%;
+    height: 7px;
+    background-color: white;
+    margin-right: 10px;
+}
+.our-text h3{
+    font-size: 60px;
+    width: 10%;
+}
+.our-service{
+    display: flex;
+}
+.service-text{
+    display: flex;
+    justify-content: end;
+}
+.service-text h1{
+    font-size: 70px;
+    color: gold;
+    font-weight: 700;
+    font-family: "Roboto" sans-serif;
+}
+.main-content{
+    width: 200px;
+}
+.details{
+    /* padding-block: 120px; */
+   
+}
+.safety{
+    background-image: url(./safety.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: 50% 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 300px;
+}
+.safety-line{
+    display: flex;
+    align-items: center;
+}
+.line-safe{
+    width: 30%;
+    height: 8px;
+    background-color: white;
+}
+.safety-text h3{
+    font-size: 50px;
+    font-weight: 700;
+}
+.srs h1{
+    font-size: 70px;
+    color: gold;
+    font-weight: 700;
+}
+.srs a{
+    text-decoration: none;
+    color: black;
+    border: 0px 1px  solid black;
+    padding: 5px;
+    /* font-size: ; */
+    border-radius: 10px;
+    background-color: white;
+}
+.line-x{
+    width: 30%;
+    height: 8px;
+    background-color: white;
+}
+.exterior{
+    background-image: url(./ext.png);
+    background-size: cover ;
+    height:100vh;
+    width:100%;
+    /* padding-block: 70px; */
+    /* display: flex;
+    background-repeat: no-repeat;
+    flex-wrap: nowrap; */
+}
+.ext-line{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    color: white;
+    padding-top: 5%;
+}
+.ext-text h3{
+    font-size: 50px;
+}
+.main-x-con h1{
+    font-size: 58px;
+    color: gold;
+    font-weight: 700;
+    width: 500px;
+}
+.main-x-con{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.performance{
+    background-color: black;
+    width: 100%;
+    padding-block: 35px;
+    display: flex;
+    justify-content: center;
+}
+.line-p{
+    width: 30%;
+    height: 8px;
+    background-color: white;
+}
+.per-heading h3{
+    font-size: 50px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.per-line{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-block: 20px;
+}
+.speed h3{
+    font-size: 70px;
+    color: gold;
+    font-weight: 700;
+    /* width: 500px; */
+}
+.img-1{
+    width: 100%;
+    height: 192px;
+}
+.img-1 img{
+    width: 100%;
+    height: 100%;
+}
+.img-2{
+    width: 100%;
+    height: 170px;
+}
+.img-2 img{
+    width: 100%;
+    height: 100%;
+}.img-3{
+    width: 100%;
+    height: 192px;
+}
+.img-3 img{
+    width: 100%;
+    height: 100%;
+}
+#second{
+    padding-top: 90px;
+}
+.cd-1 ,.cd-2 , .cd-3 , .cd-4{
+    width: 100%;
+    height: 400px;
+    padding: 0%;
+    margin: 0%;
+}
+.cd-1 img{
+    width: 100%;
+    height: 100%;
+}
+.cd-2 img{
+    width: 100%;
+    height: 100%;
+}
+.cd-3 img{
+    width: 100%;
+    height: 100%;
+}
+.cd-4 img{
+    width: 100%;
+    height: 100%;
+}
+.picture-sec{
+    padding: 0%;
+    margin: 0%;
+}
+.last-sec .container .row .col-md-6 .in-field input:nth-child(1).name{
+    padding-block: 10px;
+}
+.last-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./toyotaLandCruiserv82015interiortme013afull_tcm3046502784.jpg");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-block: 40px;
+}
+.contact h1{
+    font-size: 60px;
+    font-weight: 700;
+    padding-block: 10px;
+    color: goldenrod;
+}
+.num {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 100;
+    padding-block: 20px;
+}
+.add{
+    color: aliceblue;
+    font-size: 22px;
+    font-weight: 100;
+}
+.heading-follow h3{
+    color: aliceblue;
+    font-size: 35px;
+    font-weight: 700;
+}
+.in-field{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.in-field input{
+    width: 500px;
+    height: 50px;
+    background: none;
+    border: 1px solid white;
+    color: aliceblue !important;
+    padding: 23px;
+    margin-block: 10px;
+}
+input::placeholder{
+    color: aliceblue;
+}
+textarea{
+    background: none;
+    border: 1px solid white;
+    padding: 10px;
+}
+textarea ::placeholder{
+    color: aliceblue;
+}
